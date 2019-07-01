@@ -11,6 +11,11 @@ html {
   overflow-y: auto;
   overflow:auto;
 }
+
+div{
+  line-height: 26pt;
+}
+
 .nav {
   height: 70px;
   width: 100%;  
@@ -20,13 +25,13 @@ html {
   text-align: right;
   vertical-align: middle;
   float: left;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255,255,255,0.6); 
 }
 
-#navbar {
-  display: block;
-  /*background-color: green;*/
 
+#navbar {
+  display: block; 
+  
 }
 
 #navbar li {
@@ -84,59 +89,81 @@ white-space: wrap;
   overflow-wrap: break-word;
 }
 
-.information {
-  width: 100%;  
-  font-family: Arial;
+.container_sub {
+  width: 92%;
+  margin: 20px auto;  
+  font-family: Comic Sans MS, cursive, sans-serif;
   font-size: 20px;
-  background-color: #1a1a1a;
-  display: inline-block;
-  position: relative;
-  text-align: center;
+  text-align: left;
   color: white;
-  padding-bottom: 10px;
+  padding: 20px;
+
 }
 
 .topics {
-  font-family: Arial;
+  font-family: Times New Roman, Times;
   font-size: 30px;
-  padding-bottom: 10px;
-  padding-top: 10px;
   text-align: center;
   color: white;
+  padding-top: 20px;
+  color: #0066ff;
 }
 
-.normal {
-text-align: left;
-padding-top: 0px;
-padding-bottom: 10px;
-color: white;
+
+.floatl{
+  float: left;
+  margin-right: 35px;
 }
+
+.floatr{
+  float:right;
+  margin-left: 15px;
+}
+
 
 .internal_list {
   margin-top: -2px;
   margin-bottom: 10px;
+  display:block;
+  padding: 10px;
+  line-height: 26pt;
 }
 
-.blog_text {
-padding-top: 80px;
-text-align: left;
-color: white;
-font-family: Arial;
-font-size: 20px;
-
+.container2{
+  float: right;
 }
+
+
 
 .blog_container {
   display: inline-block;
   position: relative;
+  color: white;
+
 }
 
 .blogtext_container {
   padding-left: 80px;
   margin-left: 30px;
-
 }
 
+.skills{
+  padding-top: 40px;
+}
+
+.innerlinks{
+  color: yellow;
+}
+
+#copyright {
+  float: left;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+}
 
 
 
