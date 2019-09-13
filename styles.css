@@ -21,7 +21,7 @@ div{
   width: 100%;  
   line-height: 45px;
   display: inline-block;
-  position: relative;
+  position: fixed;
   text-align: right;
   vertical-align: middle;
   float: left;
@@ -164,6 +164,16 @@ white-space: wrap;
   width: 100%;
   color: white;
 }
+
+#main-img {
+  background-image: url(image1.jpeg);
+  background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+  height: 700px;
+  width:100%
+} 
 
 
 
