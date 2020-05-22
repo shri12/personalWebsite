@@ -133,7 +133,31 @@ white-space: wrap;
   float: right;
 }
 
+.container4{
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+}
 
+.container5{
+  max-width: 200px;
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  width: 200px;
+}
+
+.column {
+  float: left;
+  padding: 75px;
+  padding-left: 60px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .blog_container {
   display: inline-block;
