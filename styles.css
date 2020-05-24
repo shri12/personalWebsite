@@ -101,12 +101,12 @@ white-space: wrap;
 }
 
 .topics {
-  font-family: Times New Roman, Times;
-  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2.0rem;
+  color: #bb86fc;
   text-align: center;
-  color: white;
   padding-top: 20px;
-  color: #0066ff;
 }
 
 
